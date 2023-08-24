@@ -11,26 +11,24 @@ B. Rasti, A. Zouaoui, J. Mairal and J. Chanussot, "SUnAA: Sparse Unmixing using 
 1. Clone the repository and move to the repository
 
 ```shell
-git clone git@github.com:BehnoodRasti/SUnAA.git
-cd SUnAA
+git clone git@github.com:BehnoodRasti/FaSUn.git
+cd FaSUn
 ```
 
 2. We recommend using `conda` to install the package, as follows:
 
 ```shell
-conda create --name sunaa python=3.10
+conda create --name FaSUn python=3.10
 ```
 3. Activate your freshly created environment
 ```shell
-conda activate sunaa
+conda activate FaSUn
 ```
 
 4. Install the required python packages:
 ```shell
 pip install -r requirements.txt
 ```
-* In case you face some issues regarding the installation of `spams`, we recommend installing it from source using the instructions found on the official PyPI [package website](https://pypi.org/project/spams/).
-* For windows users, we suggest removing the line 4 in the requirements.txt (spams==2.6.5.4) and after installing the requirements, install spams using `pip install spams-bin`.
 
 ## Running the demo
 
