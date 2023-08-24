@@ -1,10 +1,10 @@
 # FaSUn
-Fast Semisupervised Unmixing (FaSUn) is an innovative semi-supervised unmixing technique that leverages the assumption that real endmembers can be represented as convex combinations of the library endmembers. Building upon the principles of archetypal analysis, we propose a new model formulation for sparse unmixing. The motivation behind this method is to address mismatches commonly encountered between endmembers from spectral libraries and endmembers from a dataset, which often manifest as scaling factors. These mismatches can arise from various sources such as noise, atmospheric effects, illumination variations, and the intrinsic variability of materials. In contrast to conventional sparse unmixing methods, SUnAA estimates both the endmembers and abundances by utilizing the endmember library as a reference.
+Fast Semisupervised Unmixing (FaSUn) is an innovative semi-supervised unmixing technique that leverages the assumption that real endmembers can be represented as convex combinations of the library endmembers. We propose a new model formulation for semisupervised unmixing. We also propose an alternating direction method of multipliers (ADMM) algorithm to solve such a nonconvex problem by breaking it into convex subproblems using a cyclic descent scheme. This method aims to address mismatches commonly encountered between endmembers from spectral libraries and endmembers from a dataset, which often manifest as scaling factors. These mismatches can arise from various sources such as noise, atmospheric effects, illumination variations, and the intrinsic variability of materials. In contrast to conventional sparse unmixing methods, FaSUn estimates both the endmembers and abundances by utilizing the endmember library as a reference. 
 
 ## Citation
 If you use this code please cite the following paper
 
-B. Rasti, A. Zouaoui, J. Mairal and J. Chanussot, "SUnAA: Sparse Unmixing using Archetypal Analysis," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2023.3284221.
+B. Rasti, "FaSUn: Fast Non-convex Semi-supervised Unmixing using Alternating Direction Method of Multipliers," in IEEE WHISPERS 2023.
 
 ## Installation instructions
 
