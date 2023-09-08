@@ -37,7 +37,7 @@ We provide a simple demo script alongside the data to run it (DC1 in our paper).
 You can run it at the desired SNR (here 20) using the following command:
 
 ```shell
-python demo.py -N 40 -r 1 -p 5 -m1 50 -m2 10 -T 5000 -T1 5 -T2 5
+python demo.py -N 40 -r 1 -p 5 -m1 50 -m2 25 -T 10000 -T1 5 -T2 5
 ```
 
 Take a look at the `demo.py` file to better understand the parameters that can be tweaked as well as changing the dataset to fit your needs.
