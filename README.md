@@ -4,7 +4,7 @@ Fast Semisupervised Unmixing (FaSUn) is an innovative semi-supervised unmixing t
 ## Citation
 If you use this code please cite the following paper
 
-B. Rasti, "FaSUn: Fast Non-convex Semi-supervised Unmixing using Alternating Direction Method of Multipliers," in IEEE WHISPERS 2023.
+B. Rasti, "FaSUn: Fast Non-convex Semi-supervised Unmixing using Alternating Direction Method of Multipliers," in IEEE WHISPERS 2023, doi={10.1109/WHISPERS61460.2023.10430631}.
 
 ## Installation instructions
 
